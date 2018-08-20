@@ -1,7 +1,8 @@
 {
-  "name": "crealogix-test-task",
+  "name": "counter-test-task",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage": "http://apedyashev.github.io/counter-test-task",
   "scripts": {
     "start": "NODE_PATH=./src react-scripts start",
     "build": "NODE_PATH=./src react-scripts build",
