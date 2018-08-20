@@ -1,0 +1,6 @@
+.list-item {
+  padding: 5px 10px;
+}
+.list-item:nth-child(even) {
+  background-color: var(--inactive-color);
+}

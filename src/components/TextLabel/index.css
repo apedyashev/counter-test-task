@@ -1,0 +1,23 @@
+.text-label {
+  padding: 0 5px;
+}
+.text-label a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.text-label--inactive {
+  color: var(--inactive-color);
+}
+
+.text-label--center {
+  display: block;
+  text-align: center;
+}
+
+.text-label--header {
+  display: block;
+  margin: 10px 0;
+  color: var(--secondary-color);
+  font-size: 1.2rem;
+}

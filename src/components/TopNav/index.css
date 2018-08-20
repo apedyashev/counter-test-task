@@ -1,0 +1,24 @@
+.top-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--primary-color);
+}
+
+.top-nav__item {
+  float: left;
+}
+
+.top-nav__item a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.top-nav__item a:hover,
+.top-nav__item--active {
+  background: rgba(0, 0, 0, 0.05);
+}
