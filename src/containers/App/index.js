@@ -15,7 +15,7 @@ const topNavItems = [
   },
 ];
 const App = () => (
-  <Router>
+  <Router basename={process.env.NODE_ENV === 'production' ? '/counter-test-task' : '/'}>
     <div>
       <TopNav items={topNavItems} />
 
