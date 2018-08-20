@@ -9,9 +9,7 @@
     "test": "NODE_PATH=./src react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "prettier": "prettier --write './**/*.js'",
-    "lint": "eslint ./src",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "lint": "eslint ./src"
   },
   "dependencies": {
     "classnames": "^2.2.6",
@@ -34,7 +32,6 @@
     "eslint-plugin-jsx-a11y": "6.1.1",
     "eslint-plugin-prettier": "^2.6.2",
     "eslint-plugin-react": "7.11.0",
-    "gh-pages": "^1.2.0",
     "prettier": "^1.14.2",
     "react-test-renderer": "^16.4.2",
     "redux-test-utils": "^0.2.2"
