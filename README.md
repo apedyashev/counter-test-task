@@ -17,3 +17,9 @@ yarn start
 ```
 yarn run test
 ```
+
+## Build for production
+
+```
+yarn run build
+```
