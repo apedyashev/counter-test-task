@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-Live version https://apedyashev.github.io/counter-test-task/numbers-list
+Live version https://apedyashev.github.io/counter-test-task
 
 ## Install
 
